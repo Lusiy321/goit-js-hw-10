@@ -18,3 +18,18 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+img {
+  display: flex;
+  width: 50px;
+  height: 25px;
+
+}
