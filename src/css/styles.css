@@ -40,6 +40,8 @@ li {
   line-height: 1.8;
 }
 
+
+
 a {
   display: flex;
   gap: 30px;
@@ -54,7 +56,6 @@ h1 {
 img {
   width: 160px;
   height: auto;
-
 }
 
 .country-list {
@@ -71,4 +72,38 @@ img {
   font-size: 22px;
   font-style: italic;
   color: #7e6e40;
+}
+
+@media screen and (max-width: 767px) {
+  .country-list {
+    margin-left: auto;
+  }
+
+  .country-info {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 300px;
+  }
+
+  h1 {
+    margin-top: 80px;
+    margin-left: 5%;
+  }
+
+  #search-box {
+    font: inherit;
+    padding: 8px;
+    width: 320px;
+    margin-top: -30px;
+    margin-left: 5%;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #212121;
+    border: 2px solid white;
+  }
+
+  img {
+    width: 100px;
+    height: 80px;
+  }
 }
