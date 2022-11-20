@@ -33,7 +33,7 @@ li {
 
 a {
   display: flex;
-  gap: 30px;
+  gap: 32px;
   text-decoration: none;
 
 }
@@ -41,7 +41,6 @@ a {
 img {
   width: 120px;
   height: auto;
-
 }
 
 .country-list {
