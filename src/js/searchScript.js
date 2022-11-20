@@ -10,20 +10,6 @@ input.addEventListener('input', debounce(onSearch, 300));
 export function onSearch(e) {
   e.preventDefault();
   const val = input.value.trim();
-  if (!val) {
-    Notify.failure('Please enter correct name', {
-      opacity: 0.5,
-      position: 'right-top',
-      timeout: 2000,
-      backOverlay: true,
-      cssAnimationDuration: 300,
-      backOverlayColor: 'rgb(255,255,255)',
-      cssAnimationStyle: 'zoom',
-    });
-    countList.innerHTML = null;
-    countInfo.innerHTML = null;
-    return;
-  }
   fetchCountries(val)
     .then(data => createMarkup(data))
     .catch(error => {
