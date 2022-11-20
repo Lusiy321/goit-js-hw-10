@@ -1,3 +1,3 @@
-import { onSearcht, createMarkup } from './js/searchScript';
-onSearcht();
+import { onSearch, createMarkup } from './js/searchScript';
+onSearch();
 createMarkup();
